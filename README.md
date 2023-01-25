@@ -10,8 +10,8 @@
 </p>
 
 <div align="center">  
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=fernando-aramis-99&show_icons=true&count_private=true&hide_border=true&title_color=006CD0&icon_color=00ff13&text_color=FEFCFB&bg_color=0d1117" alt="Fernando Aramis github stats" /> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernando-aramis-99&layout=compact&hide_border=true&title_color=006CD0&text_color=00ff13&bg_color=0d1117" />
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=fernando-aramis-99&show_icons=true&count_private=false&hide_border=true&title_color=006CD0&icon_color=00ff13&text_color=FEFCFB&bg_color=0d1117" alt="Fernando Aramis github stats" /> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernando-aramis-99&layout=compact&&count_private=false&hide_border=true&title_color=006CD0&text_color=00ff13&bg_color=0d1117" />
 </div>
 
 
