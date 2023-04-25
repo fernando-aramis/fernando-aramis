@@ -20,12 +20,13 @@
 <div align="center"> 
 
   <!-- <a href="https://instagram.com/99.c_fernando" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"</a>
-<a href="https://www.youtube.com/channel/UCN7MxV4nCxiMqU60bR2roDw" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a> -->
+<a href="https://www.youtube.com/channel/UCN7MxV4nCxiMqU60bR2roDw" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
 
   <a href = "mailto:fernandoaramis.99@gmail.com"> <img src="https://img.shields.io/badge/-Gmail-FF0000?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/fernando-colque/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="border-radius: 30px" target="_blank"></a> 
  </div>
- 
+--> 
+
  ### Main skills:
  
 ![.NET](https://img.shields.io/badge/-.NET-0D1117?style=for-the-badge&logo=csharp&labelColor=0D1117)&nbsp;
