@@ -12,6 +12,8 @@ Atuo com paixão no desenvolvimento de software, especialmente focado em arquite
 
 📜 **Credly:** [fernando-colque.99](https://www.credly.com/users/fernando-colque.99/)
 
+🗂️ **Portfolio:** [fernando-aramis](https://fernando-aramis.github.io/fernando-aramis/)
+
 ---
 
 ## 📚 Habilidades Técnicas
@@ -61,17 +63,17 @@ Atuo com paixão no desenvolvimento de software, especialmente focado em arquite
 ## 📜 Certificações
 
 * **AWS Cloud Practitioner** – Amazon (2023)
-* **Curso de Angular 2 (v15+) Typescript do Básico ao Avançado** Udemy (2023)
-* **Git Complete: The definitive, step-by-step guide to Git** - Udemy (2023)
-* **Microsoft SQL for Beginners** - Udemy (2023)
-* **IBM Agile Explorer** - IBM (2022)
+* **Curso de Angular 2 (v15+) Typescript do Básico ao Avançado** – Udemy (2023)
+* **Git Complete: The definitive, step-by-step guide to Git** – Udemy (2023)
+* **Microsoft SQL for Beginners** – Udemy (2023)
+* **IBM Agile Explorer** – IBM (2022)
 * **C# COMPLETO Programação Orientada a Objetos + Projetos** – Udemy (2022)
-* **Rest Api's in Asp.Net Core and C# 2023 Edition** - Udemy (2022)
-* **Unit Testing for C# Developers** - Udemy (2022)
+* **Rest Api's in Asp.Net Core and C# 2023 Edition** – Udemy (2022)
+* **Unit Testing for C# Developers** – Udemy (2022)
 ---
 
 ### 🚧 Projetos Destacados
 
-Confira meus repositórios para explorar alguns dos projetos nos quais já trabalhei ou que estou atualmente desenvolvendo. Estou aberto a contribuições e sempre disposto a aprender algo novo!
+Confira os meus repositórios para explorar alguns dos projetos nos quais já trabalhei ou que estou atualmente desenvolvendo. Estou aberto a contribuições e sempre disposto a aprender algo novo!
 
 **Obrigado pela visita! 😊**
