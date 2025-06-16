@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Colque</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="/fonts/SourceCodePro-Regular.ttf.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/SourceCodePro-Bold.ttf.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header class="menu-header">
+    <nav class="navbar container">
+        <div class="nav-logo">
+            <a href="#">
+                    <span class="logo-icon-container">
+                        <span class="logo-icon-inner">
+                           <img src="./media/pcb.png" alt="Icone de Circuito do menu principal" class="foto-perfil">
+                        </span>
+                    </span>
+                <span class="logo-text">
+                    <span class="logo-text-d">F</span>C</span>
+            </a>
+        </div>
+
+        <div class="nav-menu">
+            <ul class="nav-links">
+                <li><a href="#start" class="active" data-translate-key="nav_home">Início</a></li>
+                <li><a href="#about" data-translate-key="nav_about">Sobre Mim</a></li>
+                <li><a href="#projects" data-translate-key="nav_projects">Projetos</a></li>
+                <li><a href="#skills" data-translate-key="nav_skills">Habilidades</a></li>
+                <li><a href="#experiences" data-translate-key="nav_experiences">Experiencia</a></li>
+            </ul>
+            <div class="language-selector-dropdown">
+                <button type="button" class="current-lang-btn" id="current-lang-toggle" aria-haspopup="true"
+                        aria-expanded="false" aria-controls="lang-options-list">
+                    <i class="fas fa-language" aria-hidden="true"></i>
+                    <span id="current-lang-text" data-translate-key="lang_display_portuguese">Português</span>
+                    <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                </button>
+                <ul class="lang-options-list" id="lang-options-list" role="menu" hidden>
+                    <li>
+                        <button type="button" class="lang-option" data-lang="pt-BR" role="menuitem"
+                                data-translate-key="lang_display_portuguese">Português
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="lang-option" data-lang="en" role="menuitem"
+                                data-translate-key="lang_display_english">English
+                        </button>
+                    </li>
+                    <li>
+                        <button type="button" class="lang-option" data-lang="es" role="menuitem"
+                                data-translate-key="lang_display_spanish">Español
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="container" style="padding-top: 50px; color: #333;">
+    <section id="start" class="section-start">
+        <div class="start-content">
+            <h1 data-translate-key="start_title">Olá, eu sou Fernando Colque</h1>
+            <p class="subtitle" data-translate-key="start_subtitle">Eu sou desenvolvedor backend.</p>
+            <p class="details" data-translate-key="start_details">Com foco em microsserviços e AWS</p>
+            <div class="social-icons">
+                <a href="https://github.com/fernando-aramis" target="_self" aria-label="Link para o GitHub">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/fernando-colque" target="_self" aria-label="Link para o LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5519996673298" target="_self"
+                   aria-label="Link para o Whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Whatsapp</span>
+                </a>
+                <a href="https://www.credly.com/users/fernando-colque.99" target="_self"
+                   aria-label="Link para o Credly">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Credly</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-about">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">
+                    <span data-translate-key="about_title_prefix">Sobre</span> <span class="highlight-text"
+                                                                                     data-translate-key="about_title_highlight_word">Mim</span>
+                </h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="media/foto_apresentacao.webp" alt="Foto de apresentação de Fernando" class="foto-perfil">
+                </div>
+                <div class="about-info">
+                    <h3 data-translate-key="about_info">Hi There! I'm Fernando Colque</h3>
+                    <p class="job-title" data-translate-key="about_job_title">Engenheiro da Computação</p>
+                    <p class="description" data-translate-key="about_description">Eu sou formado em Engenharia de
+                        Computação pela Universidade Adventista de
+                        São Paulo, em 2023 conquistei o Top 10% no Hackathon da faculdade. Também atuei como professor
+                        voluntário de programação Python para crianças e adolescentes no projeto Unaspython em 2024,
+                        contribuindo para o aprendizado e o crescimento da comunidade.</p>
+                    <ul class="details-list">
+                        <li>
+                            <span class="label" data-translate-key="about_details_birthday_label">Aniversário:</span>
+                            <span class="value" data-translate-key="about_details_birthday_value">15 de Agosto</span>
+                        </li>
+                        <li>
+                            <span class="label" data-translate-key="about_details_phone_label">Telefone:</span>
+                            <span class="value" data-translate-key="about_details_phone_value">+55 19-99667-3298</span>
+                        </li>
+                        <li>
+                            <span class="label" data-translate-key="about_details_email_label">Email:</span>
+                            <span class="value" data-translate-key="about_details_email_value">fernandoaramis.99@gmail.com</span>
+                        </li>
+                        <li>
+                            <span class="label" data-translate-key="about_details_location_label">De:</span>
+                            <span class="value"
+                                  data-translate-key="about_details_location_value">Hortolândia, São Paulo</span>
+                        </li>
+                        <li>
+                            <span class="label" data-translate-key="about_details_language_label">Linguagens:</span>
+                            <span class="value" data-translate-key="about_details_language_value">Português, Inglês, Espanhol</span>
+                        </li>
+                    </ul>
+                    <a href="./media/Fernando Colque.pdf" class="btn-cv" data-translate-key="about_button_download"
+                       download>Baixar Currículo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">
+                    <span data-translate-key="projects_title_prefix">Meus</span> <span class="highlight-text"
+                                                                                       data-translate-key="projects_title_highlight_word">Projetos</span>
+                </h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="./media/work_in_progress.webp"
+                             alt="Preview do projeto Script">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-translate-key="project_1_info">Projeto Script: Edição de PDFs Inteligente, Ágil e
+                            Segura</h3>
+                        <p class="project-description" data-translate-key="project_1_description">
+                            Trata-se de um editor de PDF online avançado e intuitivo, projetado para oferecer uma
+                            experiência de usuário fluida e eficiente. Seja para edições rápidas, preenchimento de
+                            formulários complexos ou assinatura digital de documentos importantes, o Script é a
+                            ferramenta ideal.
+                        </p>
+                        <div class="project-technologies">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>GraphQL</span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_self" class="btn-project-link view-project">
+                                <i class="fas fa-external-link-alt"></i> Ver Projeto
+                            </a>
+                            <a href="#" target="_self" class="btn-project-link view-code">
+                                <i class="fab fa-github"></i> Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="./media/work_in_progress.webp"
+                             alt="Preview do projeto Mapx">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-translate-key="project_2_info">Projeto Caixa de Aquarela: Onde a Literatura Ganha Cores
+                            e Novas Perspectivas</h3>
+                        <p class="project-description" data-translate-key="project_2_description">
+                            Caixa de Aquarela é mais do que um simples sistema de e-commerce, é um convite para uma
+                            imersão profunda no universo dos livros digitais ilustrados, para leitores que buscam ver
+                            além das palavras, explorando obras literárias sob uma perspectiva, enriquecida pela beleza
+                            e expressividade da arte visual.
+                        </p>
+                        <div class="project-technologies">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Dart</span>
+                            <span>API Rest</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_self" class="btn-project-link view-project">
+                                <i class="fas fa-external-link-alt"></i> Ver Projeto
+                            </a>
+                            <a href="#" target="_self" class="btn-project-link view-code">
+                                <i class="fab fa-github"></i> Ver Código
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="./media/work_in_progress.webp"
+                             alt="Preview do projeto Caixa de Aquarela">
+                    </div>
+                    <div class="project-info">
+                        <h3 data-translate-key="project_3_info">Projeto Compass: Seu Guia Interativo de Mapas e
+                            Clima</h3>
+                        <p class="project-description" data-translate-key="project_3_description">
+                            Compass é uma aplicação web desenvolvida com .NET e Angular, projetada para oferecer
+                            assistência de navegação e informações meteorológicas. Combinando a robustez do .NET para
+                            processamento de dados e a dinamicidade do Angular para uma interface de usuário moderna e
+                            responsiva, oferecendo uma experiência fluida e rica em informações.
+                        </p>
+                        <div class="project-technologies">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>Dart</span>
+                            <span>API Rest</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_self" class="btn-project-link view-project">
+                                <i class="fas fa-external-link-alt"></i> <span data-translate-key="project_button_link">Ver Projeto</span>
+                            </a>
+                            <a href="#" target="_self" class="btn-project-link view-code">
+                                <i class="fab fa-github"></i> <span data-translate-key="project_button_github">Ver Código</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="skills-container">
+            <div class="section-title-container">
+                <h2 class="section-title">
+                    <span data-translate-key="skills_title_prefix">Minhas</span><span class="highlight-text"
+                                                                                      data-translate-key="skills_title_highlight_word">Habilidades</span>
+                </h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="skills-cloud-container">
+            </div>
+
+            <div class="skills-legend">
+            </div>
+        </div>
+    </section>
+
+    <section id="experiences" class="experience-section">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">
+                    <span data-translate-key="experiences_title_prefix">Experiência </span>
+                    <span class="highlight-text"
+                          data-translate-key="experiences_title_highlight_word">Profissional</span>
+                </h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <p class="timeline-period">Jul/2023 - Fev/2025</p>
+                        <div class="experience-header">
+                            <h3 class="timeline-title">Desenvolvedor .NET</h3>
+                            <img src="media/IATEC.png" alt="Logo IATec"
+                                 class="company-logo">
+                        </div>
+                        <p class="timeline-company">Instituto Adventista de Técnologia - IATEC</p>
+                        <p class="timeline-description">
+                            Atuei como Desenvolvedor .NET no projeto Scribos, um sistema de atendimento ao cliente
+                            multicanal (WhatsApp e Web) com chatbot, projetado com Clean Architecture e escalonado com
+                            Docker. Fui responsável pelo desenvolvimento de novas funcionalidades, otimização de
+                            performance e manutenção de um sistema de alta criticidade, utilizando um stack tecnológico
+                            moderno que inclui .NET Core, MongoDB, Redis, AWS SQS, WebSockets, SignalR e Azure DevOps,
+                            dentro de um ambiente ágil.
+                        </p>
+                        <p class="timeline-description">
+                            <strong>
+                                Realização 1: Otimização do Processo de Migração de Dados de Clientes
+                            </strong>
+                        </p>
+                        <p class="timeline-description">
+                            • Situação (Situation): Havia a necessidade de integrar novas instituições como clientes na
+                            plataforma Scribos. No entanto, os dados desses clientes estavam em planilhas de Excel com
+                            formatos variados e sem uma validação padronizada, o que tornava o processo de importação
+                            para o MongoDB lento e propenso a erros.
+                        </p>
+                        <p class="timeline-description">
+                            • Tarefa (Task): Minha responsabilidade era garantir a integridade dos dados, validar as
+                            informações e criar um processo de migração mais rápido e confiável para acelerar o
+                            onboarding de novos clientes.
+                        </p>
+                        <p class="timeline-description">
+                            • Ação (Action): Colaborei diretamente com o Product Owner (PO) para definir as regras de
+                            negócio e os critérios de validação dos dados. Em seguida, implementei o uso de fórmulas e
+                            validações avançadas diretamente no Excel para pré-processar e limpar os dados antes da
+                            importação. Por fim, desenvolvi os scripts que realizavam a migração para o banco de dados
+                            MongoDB.
+                        </p>
+                        <p class="timeline-description">
+                            • Resultado (Result): Essa abordagem acelerou significativamente o processo de importação de
+                            dados, reduzindo o tempo de cadastro de novos clientes. Além disso, a pré-validação diminuiu
+                            em mais de 90% os erros de inconsistência encontrados após a migração, garantindo uma maior
+                            qualidade e integridade dos dados na plataforma.
+                        </p>
+                        <p class="timeline-description">
+                            <strong>
+                                Realização 2: Refatoração de Módulo para Geração de Métricas de Atendimento
+                            </strong>
+                        </p>
+                        <p class="timeline-description">
+                            • Situação (Situation): A tela principal de gestão de atendimentos do sistema não possuía
+                            métricas de desempenho, o que dificultava a análise da eficiência da operação pelos
+                            clientes. O módulo existente não era escalável para suportar novas funcionalidades de
+                            analytics.
+                        </p>
+                        <p class="timeline-description">
+                            • Tarefa (Task): Fui encarregado de refatorar o módulo de exibição de informações para
+                            permitir a implementação de novas métricas de atendimento e performance, como volume de
+                            atendimentos e tempo de resposta.
+                        </p>
+                        <p class="timeline-description">
+                            • Ação (Action): Refatorei o backend utilizando .NET Core, otimizando as consultas
+                            (expressões LINQ) no MongoDB para agregar os dados necessários. Desenvolvi novos endpoints
+                            na API RESTful e utilizei SignalR para enviar as atualizações em tempo real para o frontend
+                            em Angular. Também aprimorei o processo de mockagem das entidades, o que permitiu uma maior
+                            cobertura de testes unitários (XUnit) para a nova funcionalidade.
+                        </p>
+                        <p class="timeline-description">
+                            • Resultado (Result): A refatoração permitiu que os clientes tivessem acesso a métricas
+                            cruciais de desempenho, melhorando a sua capacidade de gestão em tempo real. A nova
+                            arquitetura do módulo tornou-se mais escalável, facilitando a implementação de futuros
+                            recursos de BI e relatórios com baixo esforço de desenvolvimento.
+                        </p>
+                        <p class="timeline-description">
+                            <strong>
+                                Realização 3: Diagnóstico e Resolução de Bug Crítico em Produção
+                            </strong>
+                        </p>
+                        <p class="timeline-description">
+                            • Situação (Situation): Processos em background do sistema pararam de ser executados no
+                            ambiente de produção, causando uma falha crítica que impedia o processamento de mensagens
+                            pendentes armazenadas na fila do AWS SQS.
+                        </p>
+                        <p class="timeline-description">
+                            • Tarefa (Task): Minha missão era identificar a causa raiz do problema, que não era aparente
+                            pelos logs convencionais, e implementar uma correção de forma urgente para restaurar a
+                            funcionalidade do sistema.
+                        </p>
+                        <p class="timeline-description">
+                            • Ação (Action): Iniciei a investigação analisando os logs e métricas no AWS Elastic. Em
+                            seguida, analisei o gerenciamento de memória da aplicação e o funcionamento do cache em
+                            Redis para mapear o fluxo de dados. Ao replicar o cenário em um ambiente de depuração,
+                            utilizei breakpoints para rastrear a execução do código e identifiquei um conflito que
+                            estava causando a falha.
+                        </p>
+                        <p class="timeline-description">
+                            • Resultado (Result): Consegui detectar e resolver o problema em poucas horas,
+                            restabelecendo 100% da funcionalidade dos processos em background. Essa ação garantiu a
+                            confiabilidade do sistema e evitou a perda de dados críticos dos clientes, validando minha
+                            capacidade de atuar em cenários de alta pressão.
+                        </p>
+                        <p class="timeline-description">
+                        </p>
+                        <p class="timeline-description">
+                        </p>
+                        <p class="timeline-description">
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <p class="timeline-period">Jul/2022 - Fev/2023</p>
+                        <div class="experience-header">
+                            <h3 class="timeline-title">Desenvolvedor CMS headless</h3>
+                            <img src="./media/IBM.png" alt="Logo IBM"
+                                 class="company-logo">
+                        </div>
+                        <p class="timeline-company">IBM</p>
+                        <p class="timeline-description">
+                            Atuei em um projeto estratégico para uma grande instituição financeira, focado na migração
+                            da estrutura de seu site do ambiente Adobe AEM para a plataforma Contentstack. Minhas
+                            principais responsabilidades incluíram:
+                        </p>
+                        <p class="timeline-description">
+                            • Desenvolvimento Frontend: Criação do frontend das páginas web a serem migradas,
+                            assegurando a conformidade visual e funcional.
+                        </p>
+                        <p class="timeline-description">
+                            • Validação e Qualidade: Participação ativa em sessões de peer review e reuniões de sprint
+                            para validação das páginas desenvolvidas pela equipe, garantindo a qualidade e o alinhamento
+                            com os requisitos antes da implantação.
+                        </p>
+                        <p class="timeline-description">
+                            • Otimização de Processos: Implementei uma metodologia de organização pessoal via Excel, que
+                            otimizou o processo de desenvolvimento e acelerou a criação de páginas no Contentstack.
+                        </p>
+                        <p class="timeline-description">
+                            • Implantação: Colaborei no processo de validação e implantação dos sites recriados no
+                            ambiente de produção, utilizando Akamai para a distribuição.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <p class="timeline-period">Fev/2022 - Jun/2022</p>
+                        <div class="experience-header">
+                            <h3 class="timeline-title">Estagiário Associates</h3>
+                            <img src="./media/IBM.png" alt="Logo IBM"
+                                 class="company-logo">
+                        </div>
+                        <p class="timeline-company">IBM</p>
+                        <p class="timeline-description">
+                            Atuei no setor de Marketing Operations para uma grande instituição financeira, fornecendo
+                            serviços de consultoria e passando por treinamentos intensivos em processos e metodologias
+                            da IBM. Minhas principais atividades e aprendizados incluíram:
+                        </p>
+                        <p class="timeline-description">
+                            • Desenvolvimento de Campanhas: Cadastrei e configurei campanhas em ferramentas de disparo
+                            de mensagens push, selecionando os bancos de clientes e gerindo o ciclo de vida das
+                            campanhas via Jira.
+                        </p>
+                        <p class="timeline-description">
+                            • Controle de Qualidade: Realizei peer reviews e implementei correções e atualizações em
+                            campanhas, garantindo a precisão das informações antes da publicação.
+                        </p>
+                        <p class="timeline-description">
+                            • Treinamento e Aprimoramento: Participei de treinamentos em programação (C# e SQL Server) e
+                            metodologias ágeis, além de programas como IBM Garage, IBM Agile e Enterprise Design
+                            Thinking, visando aprimorar minhas habilidades para consultoria.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; <span id="current-year"></span> Fernando Colque. Todos os direitos reservados.</p>
+        <p class="current-year"></p>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
+<script src="script_skills.js" defer></script>
+<script src="translator.js" defer></script>
+</body>
+</html>
